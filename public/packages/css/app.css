@@ -1,0 +1,30 @@
+body {
+	background-color: #eee;
+}
+body.highlight {
+	background-color: #f4726d;
+}
+.nav-button {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: #000;
+	border-radius: 8px;
+	font-size: 60px;
+	text-align: center;
+}
+.nav-button .fa{
+	color: #fff;
+}
+
+body.highlight .nav-button {
+	visibility: hidden;
+}
+body.highlight .nav-button.left {
+	visibility: visible;
+	background: #bcd42a;
+	color: 
+}
+body.highlight .nav-button.left .fa{
+	color: #f4726d;
+}
